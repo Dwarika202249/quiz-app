@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #082032;
+    color: white;
+}
+
+.container {
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #334756;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+
+#quiz {
+    text-align: center;
+}
+
+#question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+#choices > button {
+    background-color: rgb(109, 25, 245);
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #f0200d;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+
+#restartButton {
+    position: absolute;
+    top: 20px;
+    left: 80%;
+}
+
+#score {
+    position: absolute;
+    margin-top: 20px;
+    font-weight: bold;
+    top: 0;
+}
+
+.pass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.pass > h2 {
+    padding: 8px 20px;
+    width: 20%;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.fail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fail > h2 {
+    padding: 8px 20px;
+    width: 20%;
+    background-color: red;
+    border-radius: 5px;
+}
